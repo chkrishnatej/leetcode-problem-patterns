@@ -4,7 +4,7 @@
 
 [`https://leetcode.com/problems/continuous-subarray-sum/`](https://leetcode.com/problems/continuous-subarray-sum/)
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
 
 ### Understanding of problem
 
@@ -16,7 +16,7 @@ For example, if the `k` is **6,** this is how the preSum and `preSum%k` looks li
 
 As we try to find the contiguous sub-arrays, we can use the principle of prefix sum.
 
-<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 Store the `preSum%k` in HashMap with its position for easy lookup
 
@@ -49,7 +49,7 @@ The below case is an edge case that needs to be handled.
 
 > `k` = 7. We are trying to find multiples of 7
 
-<figure><img src="../../.gitbook/assets/image (63).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 When we see the modulo as zero, even before we find a similar modulo, we need to check the length of the subarray.
 

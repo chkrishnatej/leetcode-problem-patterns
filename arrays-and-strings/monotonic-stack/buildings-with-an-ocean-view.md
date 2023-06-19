@@ -4,7 +4,7 @@
 
 {% embed url="https://leetcode.com/problems/buildings-with-an-ocean-view/description/" %}
 
-<figure><img src="../../.gitbook/assets/image (75).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (59).png" alt=""><figcaption></figcaption></figure>
 
 ### Solution
 

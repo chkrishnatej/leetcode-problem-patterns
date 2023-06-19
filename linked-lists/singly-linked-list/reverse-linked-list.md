@@ -10,7 +10,7 @@
 
 We take the three-pointers `prev` , `current` and `forw`. These pointers help in linking and unlinking the nodes
 
-<figure><img src="../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
 
 ### Edge cases
 

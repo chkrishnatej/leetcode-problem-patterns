@@ -2,7 +2,7 @@
 
 ## Problem
 
-<figure><img src="../../.gitbook/assets/image (77).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% content-ref url="../../concepts/floor-and-ceiling-of-number.md" %}
 [floor-and-ceiling-of-number.md](../../concepts/floor-and-ceiling-of-number.md)

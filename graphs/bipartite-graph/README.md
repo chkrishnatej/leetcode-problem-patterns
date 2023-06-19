@@ -10,7 +10,7 @@ description: A graph of two disjoint sets
 * A **bipartite graph** is a graph whose vertices can be partitioned into two sets, such that no two vertices in the same set are connected by an edge. In other words, a bipartite graph is a graph that does not contain any odd cycles.
 * A **bipartite graph** is a graph which can be divided into two disjoint sets
 
-<figure><img src="../../.gitbook/assets/image (90).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 The adjacent nodes (direct neighbours) cannot have same colour
 

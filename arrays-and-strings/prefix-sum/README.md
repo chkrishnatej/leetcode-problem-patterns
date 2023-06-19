@@ -41,12 +41,12 @@ The reason for subtracting is since we are maintaining a prefix sum, we already 
 
 Let's consider in the above table, we want to get the sum of the subarray from \[1,2]
 
-<figure><img src="../../.gitbook/assets/image (82).png" alt=""><figcaption><p>Calculating subarray sum from indices [1,2]</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (27) (1).png" alt=""><figcaption><p>Calculating subarray sum from indices [1,2]</p></figcaption></figure>
 
 Looking at it, we can understand that the sum of the given subarray is 5. How we can derive it in the following way\
 
 
-<figure><img src="../../.gitbook/assets/image (59).png" alt=""><figcaption><p>Explaination of calculation</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption><p>Explaination of calculation</p></figcaption></figure>
 
 <mark style="background-color:green;">So in the code, when we find the complement in the</mark> <mark style="background-color:green;"></mark><mark style="background-color:green;">`preSum`</mark><mark style="background-color:green;">, it means that a</mark> <mark style="background-color:green;"></mark><mark style="background-color:green;">**ranged query/subarray contains the required target.**</mark>
 

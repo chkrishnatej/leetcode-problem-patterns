@@ -10,7 +10,7 @@ Topological sort can help us identify if the graph is DAG or not. If the end res
 
 
 
-![](<../../.gitbook/assets/image (66).png>)
+![](<../../.gitbook/assets/image (6) (1).png>)
 
 ## DFS
 

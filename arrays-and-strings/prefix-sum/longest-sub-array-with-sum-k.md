@@ -4,9 +4,9 @@
 
 [https://practice.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1](https://practice.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1)
 
-<figure><img src="../../.gitbook/assets/image (84).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (28) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Solution
 

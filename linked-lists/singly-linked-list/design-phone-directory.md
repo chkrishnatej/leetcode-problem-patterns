@@ -4,7 +4,7 @@
 
 [`https://leetcode.com/problems/design-phone-directory`](https://leetcode.com/problems/design-phone-directory)
 
-![](<../../.gitbook/assets/image (2).png>)![](<../../.gitbook/assets/image (69).png>)
+![](<../../.gitbook/assets/image (24).png>)![](<../../.gitbook/assets/image (21) (1).png>)
 
 ### Understanding of problem
 
