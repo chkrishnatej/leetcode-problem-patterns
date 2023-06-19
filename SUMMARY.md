@@ -33,6 +33,7 @@
 * [63. Unique Paths II](group-1/63.-unique-paths-ii.md)
 * [64. Minimum Path Sum](group-1/64.-minimum-path-sum.md)
 * [70. Climbing Stairs](group-1/70.-climbing-stairs.md)
+* [120. Triangle](group-1/120.-triangle.md)
 * [124. Binary Tree Maximum Path Sum](group-1/124.-binary-tree-maximum-path-sum.md)
 * [138. Copy List with Random Pointer](group-1/138.-copy-list-with-random-pointer.md)
 * [141. Linked List Cycle](group-1/141.-linked-list-cycle.md)

@@ -14,13 +14,13 @@ We cannot go with greedy method as it optimizes for local maxima and not global 
 
 #### Top Down
 
-<figure><img src="../../.gitbook/assets/image (90).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (91).png" alt=""><figcaption></figcaption></figure>
 
 #### Bottom Up
 
 <figure><img src="../../.gitbook/assets/image (75).png" alt=""><figcaption></figcaption></figure>
 
-![](<../../.gitbook/assets/image (82).png>)![](<../../.gitbook/assets/image (70).png>)
+![](<../../.gitbook/assets/image (81).png>)![](<../../.gitbook/assets/image (70).png>)
 
 ![](<../../.gitbook/assets/image (77).png>)![](<../../.gitbook/assets/image (74).png>)
 
