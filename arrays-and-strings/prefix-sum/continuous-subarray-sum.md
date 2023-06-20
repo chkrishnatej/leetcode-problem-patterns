@@ -4,7 +4,7 @@
 
 [`https://leetcode.com/problems/continuous-subarray-sum/`](https://leetcode.com/problems/continuous-subarray-sum/)
 
-<figure><img src="../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (25) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Understanding of problem
 

@@ -4,9 +4,9 @@
 
 {% embed url="https://leetcode.com/problems/number-of-islands-ii/description/" %}
 
-<figure><img src="../../.gitbook/assets/image (56).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (73).png" alt=""><figcaption></figcaption></figure>
 
-![](<../../.gitbook/assets/image (57).png>)![](<../../.gitbook/assets/image (12).png>)
+![](<../../.gitbook/assets/image (74).png>)![](<../../.gitbook/assets/image (45).png>)
 
 
 

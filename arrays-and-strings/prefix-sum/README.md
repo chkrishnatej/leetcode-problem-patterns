@@ -37,7 +37,7 @@ $$
 
 The reason for subtracting is since we are maintaining a prefix sum, we already have the sum of the sub-array till the point `j`. The point `i` contains the sum till&#x20;
 
-<figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption><p>Full Array with presum</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (22) (1).png" alt=""><figcaption><p>Full Array with presum</p></figcaption></figure>
 
 Let's consider in the above table, we want to get the sum of the subarray from \[1,2]
 

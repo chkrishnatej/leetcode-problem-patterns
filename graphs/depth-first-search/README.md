@@ -2,7 +2,7 @@
 
 ## Adjacency List
 
-<figure><img src="../../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (58).png" alt=""><figcaption></figcaption></figure>
 
 In Java it is represented by:
 
@@ -54,7 +54,7 @@ class Solution {
 
 ## Adjacency Matrix
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
 
 It is represented in the following way:
 
