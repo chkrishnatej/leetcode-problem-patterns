@@ -56,7 +56,7 @@ public class Solution {
 * The `OPERATOR` inside the while loop condition decides what type of monotonic stack are we creating.
 * The `OPERATOR` could be any of the four - `>, >=, <, <=`
 
-<figure><img src="../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
 
 ## Monotonic Stack Types
 

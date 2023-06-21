@@ -33,7 +33,7 @@ If we have to find the ultimate parent, we have to traverse through the nodes co
 
 This helps in retrieving the ultimate parent in almost constant time.
 
-<figure><img src="../../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
 
 ## Time and Space complexity
 
