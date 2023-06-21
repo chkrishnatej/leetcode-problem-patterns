@@ -11,7 +11,6 @@
 ## Group 1
 
 * [Template](group-1/template.md)
-* [931. Minimum Falling Path Sum](group-1/931.-minimum-falling-path-sum.md)
 * [TODO: 1351. Count Negative Numbers in a Sorted Matrix](group-1/todo-1351.-count-negative-numbers-in-a-sorted-matrix.md)
 * [TODO: 1318. Minimum Flips to Make a OR b Equal to c](group-1/todo-1318.-minimum-flips-to-make-a-or-b-equal-to-c.md)
 * [TODO: 1502. Can Make Arithmetic Progression From Sequence](group-1/todo-1502.-can-make-arithmetic-progression-from-sequence.md)
@@ -50,10 +49,12 @@
 * [744. Find Smallest Letter Greater Than Target](group-1/744.-find-smallest-letter-greater-than-target.md)
 * [876. Middle of the Linked List](group-1/876.-middle-of-the-linked-list.md)
 * [929. Unique Email Addresses](group-1/929.-unique-email-addresses.md)
+* [931. Minimum Falling Path Sum](group-1/931.-minimum-falling-path-sum.md)
 * [994. Rotting Oranges](group-1/994.-rotting-oranges.md)
 * [1091. Shortest Path in Binary Matrix](group-1/1091.-shortest-path-in-binary-matrix.md)
 * [1150. Check If a Number Is Majority Element in a Sorted Array](group-1/1150.-check-if-a-number-is-majority-element-in-a-sorted-array.md)
 * [1376. Time Needed to Inform All Employees](group-1/1376.-time-needed-to-inform-all-employees.md)
+* [1463. Cherry Pickup II](group-1/1463.-cherry-pickup-ii.md)
 * [2101. Detonate the Maximum Bombs](group-1/2101.-detonate-the-maximum-bombs.md)
 
 ## ☕ Java

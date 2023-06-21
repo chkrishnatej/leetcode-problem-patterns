@@ -4,11 +4,11 @@
 
 [https://leetcode.com/problems/subarray-sums-divisible-by-k/](https://leetcode.com/problems/subarray-sums-divisible-by-k/)
 
-<figure><img src="../../.gitbook/assets/image (85).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
 
 ### Understanding of problem
 
-<img src="../../.gitbook/assets/file.excalidraw (1).svg" alt="" class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.excalidraw.svg" alt="" class="gitbook-drawing">
 
 ```
   Input:  A = [4,5,0,-2,-3,1], K = 5
@@ -24,7 +24,7 @@
 
 In the above example, we can see 4 is occurring multiple times. Let's check if the subarray sum where prefix mod equals 4 will be divisible by zero or not.
 
-<img src="../../.gitbook/assets/file.excalidraw.svg" alt="" class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.excalidraw (3).svg" alt="" class="gitbook-drawing">
 
 {% hint style="info" %}
 * The algorithm counts if the given subarray is divisible by "k" first
