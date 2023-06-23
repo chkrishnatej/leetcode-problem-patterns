@@ -10,19 +10,19 @@ We need to find out what is the minimum amount of enery required for reaching th
 
 We cannot go with greedy method as it optimizes for local maxima and not global maxima
 
-<figure><img src="../../.gitbook/assets/image (71).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (73).png" alt=""><figcaption></figcaption></figure>
 
 #### Top Down
 
-<figure><img src="../../.gitbook/assets/image (66).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (67).png" alt=""><figcaption></figcaption></figure>
 
 #### Bottom Up
 
-<figure><img src="../../.gitbook/assets/image (68).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (70).png" alt=""><figcaption></figcaption></figure>
 
-![](<../../.gitbook/assets/image (60).png>)![](<../../.gitbook/assets/image (67).png>)
+![](<../../.gitbook/assets/image (61).png>)![](<../../.gitbook/assets/image (69).png>)
 
-![](<../../.gitbook/assets/image (11).png>)![](<../../.gitbook/assets/image (54).png>)
+![](<../../.gitbook/assets/image (11).png>)![](<../../.gitbook/assets/image (55).png>)
 
 
 

@@ -11,6 +11,7 @@
 ## Group 1
 
 * [Template](group-1/template.md)
+* [741. Cherry Pickup](group-1/741.-cherry-pickup.md)
 * [TODO: 1351. Count Negative Numbers in a Sorted Matrix](group-1/todo-1351.-count-negative-numbers-in-a-sorted-matrix.md)
 * [TODO: 1318. Minimum Flips to Make a OR b Equal to c](group-1/todo-1318.-minimum-flips-to-make-a-or-b-equal-to-c.md)
 * [TODO: 1502. Can Make Arithmetic Progression From Sequence](group-1/todo-1502.-can-make-arithmetic-progression-from-sequence.md)

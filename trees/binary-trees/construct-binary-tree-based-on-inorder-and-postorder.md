@@ -18,11 +18,11 @@ The inorder helps in identifying the left subtree and right subtree
 
 <figure><img src="../../.gitbook/assets/image (34).png" alt=""><figcaption><p>InOrder Traversal</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (83).png" alt=""><figcaption><p>PostOrder Traversal</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (86).png" alt=""><figcaption><p>PostOrder Traversal</p></figcaption></figure>
 
 We create a map for inorder to store the maintain the position of elements. This helps in creating left and right subtree.
 
-<figure><img src="../../.gitbook/assets/image (62).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (63).png" alt=""><figcaption></figcaption></figure>
 
 ### Calculating left and right subtree boundaries in inOrder
 
@@ -49,7 +49,7 @@ Based on the index retrieved from the map, we define boundaries for the left sub
 * postStart = 0
 * postEnd = postorder.length - 1
 
-<figure><img src="../../.gitbook/assets/image (82).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (85).png" alt=""><figcaption></figcaption></figure>
 
 **For left subtree**
 

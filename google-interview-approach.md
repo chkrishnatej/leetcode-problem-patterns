@@ -55,7 +55,7 @@ Run unit tests
 
 &#x20;   &#x20;
 
-<figure><img src=".gitbook/assets/image (61).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (62).png" alt=""><figcaption></figcaption></figure>
 
 ![](<.gitbook/assets/image (45).png>)
 

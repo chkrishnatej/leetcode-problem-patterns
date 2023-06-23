@@ -2,7 +2,7 @@
 
 The first type of problems are, having two pointers at left and right end of array, then moving them to the center while processing something with them.
 
-<figure><img src="../../.gitbook/assets/image (63).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (64).png" alt=""><figcaption></figcaption></figure>
 
 * 2 Sum problem\
   (\*) [https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)\

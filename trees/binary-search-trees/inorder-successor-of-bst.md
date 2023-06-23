@@ -26,7 +26,7 @@ Using BST properties, if we want to find the inorder successor
 
 
 
-<figure><img src="../../.gitbook/assets/image (74).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (76).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://leetcode.com/problems/inorder-successor-in-bst/Figures/285/img11.png" alt=""><figcaption></figcaption></figure>
 
