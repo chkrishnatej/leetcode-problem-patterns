@@ -11,6 +11,7 @@
 ## Group 1
 
 * [Template](group-1/template.md)
+* [416. Partition Equal Subset Sum](group-1/416.-partition-equal-subset-sum.md)
 * [Subset Sum Equal To K](group-1/subset-sum-equal-to-k.md)
 * [741. Cherry Pickup](group-1/741.-cherry-pickup.md)
 * [TODO: 1351. Count Negative Numbers in a Sorted Matrix](group-1/todo-1351.-count-negative-numbers-in-a-sorted-matrix.md)

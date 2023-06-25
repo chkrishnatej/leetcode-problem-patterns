@@ -12,11 +12,11 @@ description: '#dp'
 
 {% embed url="https://leetcode.com/discuss/study-guide/1497123/subarrays-vs-subsequence-vs-subsets" %}
 
-![](../.gitbook/assets/Page1.png)![](../.gitbook/assets/Page2.png)
+![](../.gitbook/assets/Page1.png)![](<../.gitbook/assets/Page2 (1).png>)
 
 ![](../.gitbook/assets/Page3.png)![](<../.gitbook/assets/Page4 (2).png>)
 
-![](<../.gitbook/assets/Page5 (1).png>)
+![](../.gitbook/assets/Page5.png)
 
 ## Time  and Space Complexity
 
