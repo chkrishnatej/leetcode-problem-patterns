@@ -12,13 +12,13 @@ We can find the next inorder successor by performing an inorder traversal. But t
 
 We need to understand where the successor could appear if you want to use BST properties.
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (2).png" alt=""><figcaption></figcaption></figure>
 
 Using BST properties, if we want to find the inorder successor
 
 ## Algorithm
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (2).png" alt=""><figcaption></figcaption></figure>
 
 
 

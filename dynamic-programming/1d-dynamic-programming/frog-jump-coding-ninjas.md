@@ -22,7 +22,7 @@ We cannot go with greedy method as it optimizes for local maxima and not global 
 
 ![](<../../.gitbook/assets/image (61).png>)![](<../../.gitbook/assets/image (69).png>)
 
-![](<../../.gitbook/assets/image (11).png>)![](<../../.gitbook/assets/image (55).png>)
+![](<../../.gitbook/assets/image (11) (1).png>)![](<../../.gitbook/assets/image (55).png>)
 
 
 

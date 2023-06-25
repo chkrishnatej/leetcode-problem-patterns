@@ -11,6 +11,7 @@
 ## Group 1
 
 * [Template](group-1/template.md)
+* [Subset Sum Equal To K](group-1/subset-sum-equal-to-k.md)
 * [741. Cherry Pickup](group-1/741.-cherry-pickup.md)
 * [TODO: 1351. Count Negative Numbers in a Sorted Matrix](group-1/todo-1351.-count-negative-numbers-in-a-sorted-matrix.md)
 * [TODO: 1318. Minimum Flips to Make a OR b Equal to c](group-1/todo-1318.-minimum-flips-to-make-a-or-b-equal-to-c.md)
