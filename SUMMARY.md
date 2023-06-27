@@ -11,9 +11,7 @@
 ## Group 1
 
 * [Template](group-1/template.md)
-* [416. Partition Equal Subset Sum](group-1/416.-partition-equal-subset-sum.md)
 * [Subset Sum Equal To K](group-1/subset-sum-equal-to-k.md)
-* [741. Cherry Pickup](group-1/741.-cherry-pickup.md)
 * [TODO: 1351. Count Negative Numbers in a Sorted Matrix](group-1/todo-1351.-count-negative-numbers-in-a-sorted-matrix.md)
 * [TODO: 1318. Minimum Flips to Make a OR b Equal to c](group-1/todo-1318.-minimum-flips-to-make-a-or-b-equal-to-c.md)
 * [TODO: 1502. Can Make Arithmetic Progression From Sequence](group-1/todo-1502.-can-make-arithmetic-progression-from-sequence.md)
@@ -46,9 +44,12 @@
 * [244. Shortest Word Distance II](group-1/244.-shortest-word-distance-ii.md)
 * [268. Missing Number](group-1/268.-missing-number.md)
 * [278. First Bad Version](group-1/278.-first-bad-version.md)
+* [416. Partition Equal Subset Sum](group-1/416.-partition-equal-subset-sum.md)
 * [496. Next Greater Element I](group-1/496.-next-greater-element-i.md)
 * [547. Number of Provinces](group-1/547.-number-of-provinces.md)
 * [556. Next Greater Element III](group-1/556.-next-greater-element-iii.md)
+* [698. Partition to K Equal Sum Subsets](group-1/698.-partition-to-k-equal-sum-subsets.md)
+* [741. Cherry Pickup](group-1/741.-cherry-pickup.md)
 * [744. Find Smallest Letter Greater Than Target](group-1/744.-find-smallest-letter-greater-than-target.md)
 * [876. Middle of the Linked List](group-1/876.-middle-of-the-linked-list.md)
 * [929. Unique Email Addresses](group-1/929.-unique-email-addresses.md)
