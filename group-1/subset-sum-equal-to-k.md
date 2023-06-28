@@ -12,11 +12,11 @@ description: '#dp'
 
 {% embed url="https://leetcode.com/discuss/study-guide/1497123/subarrays-vs-subsequence-vs-subsets" %}
 
-![](<../.gitbook/assets/Page1 (2).png>)![](<../.gitbook/assets/Page2 (3).png>)
+![](<../.gitbook/assets/Page1 (2).png>)![](../.gitbook/assets/Page2.png)
 
-![](<../.gitbook/assets/Page3 (1).png>)![](<../.gitbook/assets/Page4 (4).png>)
+![](../.gitbook/assets/Page3.png)![](<../.gitbook/assets/Page4 (4).png>)
 
-![](<../.gitbook/assets/Page5 (4).png>)
+![](<../.gitbook/assets/Page5 (5).png>)
 
 ## Time  and Space Complexity
 
@@ -93,6 +93,7 @@ public class Solution {
     // Tabulation approach with space optimization using two boolean arrays.
     boolean[] prev = new boolean[k + 1]; // Array to store the previous row of the dp table.
     prev[0] = true; // Base case: An empty subset can form a sum of 0.
+    
     if (arr[0] <= k) {
       prev[arr[0]] = true; // Base case: If the first element of arr is less than or equal to k, it is a valid subset.
     }
@@ -123,10 +124,16 @@ public class Solution {
     // Memoization approach using a 2D Integer array to store intermediate results.
     // dp[i][j] stores the result for the subproblem with arr[0...i] and target sum j.
     if (target == 0) {
-      return true; // Base case: An empty subset can form a sum of 0.
+      // If the target is down to zero it means we have found a subset whose
+      // sum is equal to target
+      return true;
     }
 
     if (idx == 0) {
+      // Checking if the first element is equal to target/remaining target, that
+      // way it target can be brought down to zero. Then we would know, if the
+      // first element of the array can form a subset which can be used to check
+      // the target
       return arr[0] == target; // Base case: Only the first element is available.
     }
 
@@ -150,11 +157,17 @@ public class Solution {
   private static boolean recursiveHelper(int idx, int target, int[] arr) {
     // Recursive approach to check if there exists a subset of elements from arr that sums up to the target.
     if (target == 0) {
-      return true; // Base case: An empty subset can form a sum of 0.
+      // If the target is down to zero it means we have found a subset whose
+      // sum is equal to target
+      return true; 
     }
 
     if (idx == 0) {
-      return arr[0] == target; // Base case: Only the first element is available.
+      // Checking if the first element is equal to target/remaining target, that
+      // way it target can be brought down to zero. Then we would know, if the
+      // first element of the array can form a subset which can be used to check
+      // the target
+      return arr[0] == target;
     }
 
     boolean notPick = recursiveHelper(idx - 1, target, arr);
