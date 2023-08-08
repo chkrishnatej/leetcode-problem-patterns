@@ -26,7 +26,30 @@ description: '#dp'
 | Tabulation                 | `O(N^K)`        | `O(N^K)`         | We store only the states computation. No recursion stack |
 | Space Optimized Tabulation | `O(N^K)`        | O(K+1)           | Only the target possible states array is required        |
 
+## Base Cases understanding in Tabulation
 
+```java
+// Base case: For target sum 0, there always exists an empty subset.
+    for (int i = 0; i < n; i++) {
+      dp[i][0] = true;
+    }
+```
+
+The first column of the table will always be set to `true` because no matter what the value is in that given index, we can always choose <mark style="background-color:red;">not to pick up</mark> resulting in achieving the target sum.&#x20;
+
+And another base case is&#x20;
+
+```java
+// Base case: If the first element of arr is less than or equal to k, 
+//it is a valid subset.
+    if (arr[0] <= k) {
+      dp[0][arr[0]] = true;
+    }
+```
+
+When we check if the first element of the element is less than or equal to target sum, then it means the `arr[0]` can be part of the subset with which we can achieve the target sum.
+
+The reason we are especially checking for `arr[0]` is we start exploring the states from **index=1**
 
 ## Solution
 
