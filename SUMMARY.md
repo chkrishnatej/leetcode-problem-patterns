@@ -3,6 +3,7 @@
 * [DSA interview format](README.md)
 * [Mega Bookmarks](mega-bookmarks.md)
 * [Google Interview approach](google-interview-approach.md)
+* [CheatSheet](cheatsheet.md)
 
 ## Problems Solved
 
