@@ -126,6 +126,7 @@
 ## Binary Search
 
 * [Core Concept](binary-search/core-concept.md)
+* [Bookmarks](binary-search/bookmarks.md)
 * [Template](binary-search/template.md)
 * [Problems](binary-search/problems/README.md)
   * [Search Insert Position](binary-search/problems/search-insert-position.md)

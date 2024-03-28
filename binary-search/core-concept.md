@@ -15,11 +15,11 @@ class Solution {
         // Time complexity: O(log n), n -> length of input array
         // log n because search space is halved at each iteration
         // Space complexity: O(1), auxiliary space
-        int start = 0, end = nums.length - 1;
+        int low = 0, high = nums.length - 1;
 
         // Initiate iteration
-        while(start <= end) {
-            int mid = start + (end-start)/2; // Get the mid index
+        while(low <= high) {
+            int mid = low + (high-low)/2; // Get the mid index
             
             // In this case, the nums[mid] == target, so we found the index                  
             if(nums[mid] == target) {
@@ -28,12 +28,12 @@ class Solution {
             // If num[mid] is less than the target, we are looking out for a number greater than nums[mid]
             // Since the array is sorted in ascending order, search towards the right 
             else if(nums[mid] < target) {
-                start = mid + 1;
+                low = mid + 1;
             } 
             // If target is less than nums[mid], we are looking out for number lesser than nums[mid]
             // Subce array is sorted in ascending, search towards left
             else if(target > nums[mid]) {
-                end = mid - 1;
+                high = mid - 1;
             }
         }
         // If code flow has come here, it means the target is not present in the array
