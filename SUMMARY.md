@@ -8,6 +8,7 @@
 ## Problems Solved
 
 * [Get Well Prepared for Google Interview](problems-solved/get-well-prepared-for-google-interview.md)
+* [NUM: problem name](problems-solved/num-problem-name.md)
 
 ## Group 1
 
