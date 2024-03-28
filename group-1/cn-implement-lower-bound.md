@@ -1,3 +1,7 @@
+---
+description: '#binary-search'
+---
+
 # CN: Implement Lower Bound
 
 ## Problem

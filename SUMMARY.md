@@ -13,6 +13,7 @@
 ## Group 1
 
 * [Template](group-1/template.md)
+* [CN: Implement upper bound](group-1/cn-implement-upper-bound.md)
 * [CN: Implement Lower Bound](group-1/cn-implement-lower-bound.md)
 * [Difference of subset sums is minimum](group-1/difference-of-subset-sums-is-minimum.md)
 * [Subset Sum Equal To K](group-1/subset-sum-equal-to-k.md)
