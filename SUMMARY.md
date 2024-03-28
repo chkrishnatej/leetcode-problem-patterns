@@ -66,6 +66,7 @@
 ## ☕ Java
 
 * [Collections to be learned](java/collections-to-be-learned.md)
+* [TODO: HashMap](java/todo-hashmap.md)
 
 ## Concepts
 
@@ -106,7 +107,7 @@
   * [Slow and Fast Pointers](arrays-and-strings/two-pointers/slow-and-fast-pointers.md)
   * [Running from beginning of 2 arrays / Merging 2 arrays](arrays-and-strings/two-pointers/running-from-beginning-of-2-arrays-merging-2-arrays.md)
   * [Split & Merge of an array / Divide & Conquer](arrays-and-strings/two-pointers/split-and-merge-of-an-array-divide-and-conquer.md)
-* [Next Greater permutation](arrays-and-strings/next-greater-permutation.md)
+* [TODO: Next Greater permutation](arrays-and-strings/todo-next-greater-permutation.md)
 
 ## Linked Lists
 
