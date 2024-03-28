@@ -8,11 +8,11 @@
 ## Problems Solved
 
 * [Get Well Prepared for Google Interview](problems-solved/get-well-prepared-for-google-interview.md)
-* [NUM: problem name](problems-solved/num-problem-name.md)
 
 ## Group 1
 
 * [Template](group-1/template.md)
+* [81. Search in Rotated Sorted Array II](group-1/81.-search-in-rotated-sorted-array-ii.md)
 * [CN: Implement upper bound](group-1/cn-implement-upper-bound.md)
 * [CN: Implement Lower Bound](group-1/cn-implement-lower-bound.md)
 * [Difference of subset sums is minimum](group-1/difference-of-subset-sums-is-minimum.md)
@@ -33,6 +33,7 @@
 * [20. Valid Parentheses](group-1/20.-valid-parentheses.md)
 * [21. Merge Two Sorted Lists](group-1/21.-merge-two-sorted-lists.md)
 * [31. Next Permutation](group-1/31.-next-permutation.md)
+* [33. Search in Rotated Sorted Array](group-1/33.-search-in-rotated-sorted-array.md)
 * [34. Find First and Last Position of Element in Sorted Array](group-1/34.-find-first-and-last-position-of-element-in-sorted-array.md)
 * [35. Search Insert Position](group-1/35.-search-insert-position.md)
 * [62.Unique Paths](group-1/62.unique-paths.md)

@@ -9,32 +9,28 @@
 ```java
 class Solution {
     public int searchInsert(int[] nums, int target) {
-        // n -> Length of nums
-        // Time complexity: O(log n)
-        // Space complexity: O(1) -> Auxillary space
-        int start = 0, end = nums.length-1;
+        // Need to find the ceiling of the target.
+        // We need to find the index where we can actually insert the target, that is
+        // find the immediate largest number for the given target
+        int low = 0, high = nums.length-1;
+        int result = nums.length;
 
-        // Standard binary search
-        while(start <= end) {
-            int mid = start + (end-start)/2;
+        while(low <= high) {
+            int mid = low + (high-low)/2;
 
-            if(nums[mid] == target) {
-                return mid;
-            } else if (nums[mid] < target) {
-                start = mid + 1;
-            } else if(target < nums[mid]) {
-                end = mid - 1;
+            // When we find nums[mid] >= target, then we need to search towards left,
+            // as we are trying to find the immediate largest number.
+            // Since we already found a larger number, we need find the smaller larger
+            // number. In a sorted array you can find smaller number towards your left, 
+            // so update the search space to look at left by setting high = mid -1;
+            if(nums[mid] >= target) {
+                result = mid;
+                high = mid-1;
+            } else {
+                low = mid + 1;
             }
         }
-        // when the target is not found, it means that the condition
-        // start <= end is violated. That means answer does not lie 
-        // between start and end. 
-        // And when the condition is violated, the start pointer will land
-        // up at the next greater element, because start is ahead of end
-        // And start will land up exactly
-        // at next smallest greater number possible where we need to
-        // insert the target;
-        return start;
+        return result;
     }
 }
 ```

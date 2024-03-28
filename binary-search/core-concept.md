@@ -4,8 +4,30 @@
 
 * Regular ones
 * Peak Element
+* Floor/Ceiling or Lower Bound/Upper Bound
 * What is the lowest occurrence / highest occurrence
 * Searching in a sorted 2D array
+
+***
+
+## Important definitions
+
+{% hint style="info" %}
+Floor/Lower Bound
+
+Largest number which is smaller or equal to the given number.
+
+This can also be called as immediate smallest number for a given number in array
+{% endhint %}
+
+{% hint style="info" %}
+Ceiling/Upper Bound\
+Smallest number which is greater or equal to the given number
+
+This can also be called as immediate largest number for a given number in array
+{% endhint %}
+
+***
 
 ### Code for ascending binary search
 
@@ -42,7 +64,7 @@ class Solution {
 }
 ```
 
-
+***
 
 ### Why use \`start<=end\` and not \`start < end\`?
 
