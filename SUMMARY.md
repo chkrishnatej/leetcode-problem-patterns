@@ -13,6 +13,7 @@
 ## Group 1
 
 * [Template](group-1/template.md)
+* [CN: Implement Lower Bound](group-1/cn-implement-lower-bound.md)
 * [Difference of subset sums is minimum](group-1/difference-of-subset-sums-is-minimum.md)
 * [Subset Sum Equal To K](group-1/subset-sum-equal-to-k.md)
 * [TODO: 1351. Count Negative Numbers in a Sorted Matrix](group-1/todo-1351.-count-negative-numbers-in-a-sorted-matrix.md)
