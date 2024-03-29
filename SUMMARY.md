@@ -208,6 +208,7 @@
 
 ## Heap/Priority Queue
 
+* [Core Concept](heap-priority-queue/core-concept.md)
 * [Implementation](heap-priority-queue/implementation/README.md)
   * [Min Heap](heap-priority-queue/implementation/min-heap.md)
   * [Max Heap](heap-priority-queue/implementation/max-heap.md)
