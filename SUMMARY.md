@@ -12,7 +12,7 @@
 ## Group 1
 
 * [Template](group-1/template.md)
-* [81. Search in Rotated Sorted Array II](group-1/81.-search-in-rotated-sorted-array-ii.md)
+* [CN: Number of rotations in sorted array](group-1/cn-number-of-rotations-in-sorted-array.md)
 * [CN: Implement upper bound](group-1/cn-implement-upper-bound.md)
 * [CN: Implement Lower Bound](group-1/cn-implement-lower-bound.md)
 * [Difference of subset sums is minimum](group-1/difference-of-subset-sums-is-minimum.md)
@@ -40,10 +40,12 @@
 * [63. Unique Paths II](group-1/63.-unique-paths-ii.md)
 * [64. Minimum Path Sum](group-1/64.-minimum-path-sum.md)
 * [70. Climbing Stairs](group-1/70.-climbing-stairs.md)
+* [81. Search in Rotated Sorted Array II](group-1/81.-search-in-rotated-sorted-array-ii.md)
 * [120. Triangle](group-1/120.-triangle.md)
 * [124. Binary Tree Maximum Path Sum](group-1/124.-binary-tree-maximum-path-sum.md)
 * [138. Copy List with Random Pointer](group-1/138.-copy-list-with-random-pointer.md)
 * [141. Linked List Cycle](group-1/141.-linked-list-cycle.md)
+* [153. Find Minimum in Rotated Sorted Array](group-1/153.-find-minimum-in-rotated-sorted-array.md)
 * [189. Rotate Array](group-1/189.-rotate-array.md)
 * [198. House Robber](group-1/198.-house-robber.md)
 * [213. House Robber II](group-1/213.-house-robber-ii.md)
