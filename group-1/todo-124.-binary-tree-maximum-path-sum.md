@@ -2,7 +2,7 @@
 description: '#dfs #tree'
 ---
 
-# 124. Binary Tree Maximum Path Sum
+# TODO: 124. Binary Tree Maximum Path Sum
 
 ## Problem
 
@@ -82,38 +82,31 @@ class Solution {
     private int maxSum = Integer.MIN_VALUE;
 
     public int maxPathSum(TreeNode root) {
-        // Time Complexity: O(n), as we process nodes only once
-        // Space Complexity: O(h), h->height of the recursion stack used by findMaxPathSum
-        findMaxPathSum(root);
+        // TC: O(n), traversing every node once
+        // SC: O(h), height of the stack
+        if(root == null) {
+            return 0;
+        }
+        getPathSum(root);
         return maxSum;
     }
 
-    private int findMaxPathSum(TreeNode node) {
-        if(node == null) {
-            return 0;
-        }
+    private int getPathSum(TreeNode node) {
+        if(node == null) return 0;
 
-        // We are performing DFS here
-        // So by the time we actually start processing, we will be at leaf node
-        // And we will start pushing the maxvalues upwards
+        // Pick the max of 0 or pathsum. We are using 0 because, if already a negative
+        // value is present, then adding to current value only makes the value lower
+        int leftPathSum = Math.max(0, getPathSum(node.left));
+        int rightPathSum = Math.max(0, getPathSum(node.right));
 
-        
-        int maxLeft = findMaxPathSum(node.left); // At leaf, it picks left value
-        int maxRight = findMaxPathSum(node.right); // At leaf, it picks right value
+        // In case, if negative value is the highest path sum, it is compared  to maxSum
+        // so negative values are also not missed
+        // Take the total sum value of the path
+        int currSum = leftPathSum + node.val + rightPathSum;
+        maxSum = Math.max(maxSum, currSum); // Keep comparing to maxSum at every iteration
 
-        // Pick the max of left and right
-        int maxLeftRight = Math.max(maxLeft, maxRight); 
-
-        // Pick the max of (maxLeftRight and node val) or just node val
-        int maxRootLeftRight = Math.max(node.val+maxLeftRight, node.val); 
-
-        // Pick the max of (full binary tree at that level) or maxRootLeftRight
-        int maxAll = Math.max(node.val + maxLeft + maxRight, maxRootLeftRight);
-
-        maxSum = Math.max(maxSum, maxAll);
-
-        // Since we will be pushing the values upwards, we will return only the maxRootLeftRight
-        return maxRootLeftRight;
+        // Return 
+        return node.val + Math.max(leftPathSum, rightPathSum);
     }
 }
 ```
