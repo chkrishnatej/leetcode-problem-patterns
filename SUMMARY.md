@@ -14,13 +14,18 @@
 * [Collections to be learned](java/collections-to-be-learned.md)
 * [TODO: HashMap](java/todo-hashmap.md)
 
+***
+
+* [🧑‍💻 Technology](technology/README.md)
+  * [Kafka](technology/kafka.md)
+
 ## Concepts
 
-* [Arrays and their sorted orders](concepts/arrays-and-their-sorted-orders.md)
 * [Permutation, Combination and Subset](concepts/permutation-combination-and-subset.md)
 * [Subarray, Subsequence and Subset](concepts/subarray-subsequence-and-subset.md)
 * [Floor and Ceiling of number](concepts/floor-and-ceiling-of-number.md)
 * [Modulo Congurence](concepts/modulo-congurence.md)
+* [Arrays and their sorted orders](concepts/arrays-and-their-sorted-orders.md)
 
 ## Quirks
 
