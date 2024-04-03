@@ -9,13 +9,14 @@
 
 * [Get Well Prepared for Google Interview](problems-solved/get-well-prepared-for-google-interview.md)
 
-## ☕ Java
-
-* [Collections to be learned](java/collections-to-be-learned.md)
-* [TODO: HashMap](java/todo-hashmap.md)
-
 ***
 
+* [Java](java/README.md)
+  * [JMX Beans](java/jmx-beans/README.md)
+    * [JMX Beans](https://levelup.gitconnected.com/jmx-beans-mbeans-74db32d120af)
+  * [Collections to be learned](java/collections-to-be-learned.md)
+  * [TODO: HashMap](java/todo-hashmap.md)
+  * [Spring](java/spring.md)
 * [🧑‍💻 Technology](technology/README.md)
   * [Kafka](technology/kafka/README.md)
     * [Kafka Design](https://docs.confluent.io/kafka/design/index.html)

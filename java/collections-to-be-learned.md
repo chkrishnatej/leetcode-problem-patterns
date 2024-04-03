@@ -4,3 +4,4 @@
 * LinkedHashSet
 * TreeSet
 * TreeMap
+* DelayedQueue
