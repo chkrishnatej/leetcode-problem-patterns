@@ -18,14 +18,22 @@
 
 * [🧑‍💻 Technology](technology/README.md)
   * [Kafka](technology/kafka/README.md)
+    * [Kafka Design](https://docs.confluent.io/kafka/design/index.html)
+    * [Spring Boot Kafka](https://developer.confluent.io/get-started/spring-boot)
+    * [Some Important Configs](technology/kafka/some-important-configs.md)
     * [Offset Policy](technology/kafka/offset-policy.md)
     * [Optimize the performance of the poll loop in Kafka Consumer](technology/kafka/optimize-the-performance-of-the-poll-loop-in-kafka-consumer.md)
     * [Commit in Kafka](technology/kafka/commit-in-kafka.md)
     * [Durability in Kafka](technology/kafka/durability-in-kafka.md)
+    * [Delivery Semantics](technology/kafka/delivery-semantics/README.md)
+      * [Delivery Semantics - Confluent](https://docs.confluent.io/kafka/design/delivery-semantics.html)
     * [Transactions in Kafka](technology/kafka/transactions-in-kafka/README.md)
       * [Transactions in Apache Kafka](https://levelup.gitconnected.com/transactions-in-apache-kafka-ee1c469fc090)
       * [Kafka Exactly Once](https://www.baeldung.com/kafka-exactly-once)
-    * [Page](technology/kafka/page.md)
+    * [Retries in Kafka](technology/kafka/retries-in-kafka/README.md)
+      * [Kafka Producer Retries](technology/kafka/retries-in-kafka/kafka-producer-retries.md)
+  * [Databases](technology/databases.md)
+  * [Operating Systems](technology/operating-systems.md)
 
 ## Concepts
 
