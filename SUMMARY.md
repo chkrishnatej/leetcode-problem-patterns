@@ -17,7 +17,15 @@
 ***
 
 * [🧑‍💻 Technology](technology/README.md)
-  * [Kafka](technology/kafka.md)
+  * [Kafka](technology/kafka/README.md)
+    * [Offset Policy](technology/kafka/offset-policy.md)
+    * [Optimize the performance of the poll loop in Kafka Consumer](technology/kafka/optimize-the-performance-of-the-poll-loop-in-kafka-consumer.md)
+    * [Commit in Kafka](technology/kafka/commit-in-kafka.md)
+    * [Durability in Kafka](technology/kafka/durability-in-kafka.md)
+    * [Transactions in Kafka](technology/kafka/transactions-in-kafka/README.md)
+      * [Transactions in Apache Kafka](https://levelup.gitconnected.com/transactions-in-apache-kafka-ee1c469fc090)
+      * [Kafka Exactly Once](https://www.baeldung.com/kafka-exactly-once)
+    * [Page](technology/kafka/page.md)
 
 ## Concepts
 
