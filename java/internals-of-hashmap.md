@@ -99,11 +99,11 @@ Load factor is a threshold value which determines when the hashmap size needs to
 The default load factor value is 0.75
 {% endhint %}
 
-When the load factor thrshold is reached, it constructs a new map with same mappings with increased capacity generally twice the size of original hashmap.
+When the load factor threshold is reached, it constructs a new map with same mappings with increased capacity generally twice the size of original hashmap.
 
 ***
 
-What is TREEIFY\_THRESHOLD?
+## What is TREEIFY\_THRESHOLD?
 
 The bin count threshold for using a tree rather than list for a bin. <mark style="color:yellow;">Bins are converted to trees when adding an element to a bin with at least TREEIFY\_THRESHOLD nodes</mark>. The value must be greater than 2 and should be at least 8 to mesh with assumptions in tree removal about conversion back to plain bins upon shrinkage.
 

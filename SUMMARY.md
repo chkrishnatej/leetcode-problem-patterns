@@ -1,6 +1,7 @@
 # Table of contents
 
-* [DSA interview format](README.md)
+* [Page](README.md)
+* [DSA interview format](<README (1).md>)
 * [Mega Bookmarks](mega-bookmarks.md)
 * [Google Interview approach](google-interview-approach.md)
 * [CheatSheet](cheatsheet.md)
