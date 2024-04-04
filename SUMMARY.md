@@ -15,7 +15,7 @@
   * [JMX Beans](java/jmx-beans/README.md)
     * [JMX Beans](https://levelup.gitconnected.com/jmx-beans-mbeans-74db32d120af)
   * [Collections to be learned](java/collections-to-be-learned.md)
-  * [TODO: HashMap](java/todo-hashmap.md)
+  * [Internals of HashMap](java/internals-of-hashmap.md)
   * [Spring](java/spring.md)
 * [🧑‍💻 Technology](technology/README.md)
   * [Kafka](technology/kafka/README.md)
