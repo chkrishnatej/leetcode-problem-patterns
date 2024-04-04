@@ -1,14 +1,12 @@
 # Table of contents
 
-* [Page](README.md)
-* [DSA interview format](<README (1).md>)
+* [DSA interview format](README.md)
 * [Mega Bookmarks](mega-bookmarks.md)
 * [Google Interview approach](google-interview-approach.md)
 * [CheatSheet](cheatsheet.md)
+* [Get Well Prepared for Google Interview](get-well-prepared-for-google-interview.md)
 
 ## Problems Solved
-
-* [Get Well Prepared for Google Interview](problems-solved/get-well-prepared-for-google-interview.md)
 
 ***
 
