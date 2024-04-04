@@ -1,9 +1,11 @@
 # Table of contents
 
-* [DSA interview format](README.md)
+* [Page](README.md)
+* [DSA interview format](<README (1).md>)
 * [Mega Bookmarks](mega-bookmarks.md)
 * [Google Interview approach](google-interview-approach.md)
 * [CheatSheet](cheatsheet.md)
+* [Initial notes on DSA](https://docs.google.com/document/d/1RuQEPSCFfgpN7pNEj3LyYBGv57B1xqQETCoZ3QUN1XM/edit?usp=sharing)
 * [Get Well Prepared for Google Interview](get-well-prepared-for-google-interview.md)
 
 ## ☕ java
@@ -32,6 +34,10 @@
     * [Kafka Producer Retries](technology/kafka/retries-in-kafka/kafka-producer-retries.md)
 * [Databases](technology/databases.md)
 * [Operating Systems](technology/operating-systems.md)
+
+## Group 1
+
+* [Page 1](group-1/page-1.md)
 
 ***
 
