@@ -46,7 +46,9 @@ This can be answered based on contract between `hashcode` and `equals`.&#x20;
 
 * **Equals Means Same Hash Code:** If two objects are considered equal using the `equals()` method (i.e., `obj1.equals(obj2) == true`), then their hash codes returned by `hashCode()` must also be equal (i.e., `obj1.hashCode() == obj2.hashCode()`).
 * **Unequal Objects Can Collide:** Objects that are not equal according to `equals()` can still have the same hash code. This is called a hash collision and while not ideal, it can happen due to hash function limitations.
-* **Keep Hash Code Consistent with Equality:** When an object's state changes in a way that affects how it compares for equality with other objects, the object's hash code should ideally be updated to reflect this change. This ensures consistency when using the object in hash-based collections. (Java itself doesn't enforce this, so it's the programmer's responsibility to maintain consistency).\*\*
+* **Keep Hash Code Consistent with Equality:** When an object's state changes in a way that affects how it compares for equality with other objects, the object's hash code should ideally be updated to reflect this change. This ensures consistency when using the object in hash-based collections. (Java itself doesn't enforce this, so it's the programmer's responsibility to maintain consistency).
+
+<mark style="color:yellow;">When collision occurs,</mark> <mark style="color:yellow;"></mark><mark style="color:yellow;">**concept of chaining**</mark> <mark style="color:yellow;"></mark><mark style="color:yellow;">is used. In the bin, new key-value map is chained i.e.  appended as next node to the key-value pair already present.</mark>&#x20;
 
 ***
 
