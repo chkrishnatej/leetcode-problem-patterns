@@ -50,6 +50,10 @@
 * [Modulo Congurence](concepts/modulo-congurence.md)
 * [Arrays and their sorted orders](concepts/arrays-and-their-sorted-orders.md)
 
+## Maths
+
+* [Page 1](maths/page-1.md)
+
 ## Quirks
 
 * [Getting Character as a numeric value](quirks/getting-character-as-a-numeric-value.md)
