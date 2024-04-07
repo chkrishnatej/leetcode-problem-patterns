@@ -1,7 +1,6 @@
 # Table of contents
 
-* [Page](README.md)
-* [DSA interview format](<README (1).md>)
+* [DSA interview format](README.md)
 * [Mega Bookmarks](mega-bookmarks.md)
 * [Google Interview approach](google-interview-approach.md)
 * [CheatSheet](cheatsheet.md)
@@ -150,7 +149,8 @@
   * [Sum of deepest leaves node](trees/binary-search-trees/sum-of-deepest-leaves-node.md)
   * [Convert sorted array into BST](trees/binary-search-trees/convert-sorted-array-into-bst.md)
   * [Convert Sorted Linked List to BST](trees/binary-search-trees/convert-sorted-linked-list-to-bst.md)
-* [Tries](trees/tries.md)
+* [Tries](trees/tries/README.md)
+  * [Commonly Used techniques](trees/tries/commonly-used-techniques.md)
 * [Segment Trees](trees/segment-trees.md)
 
 ## Graphs
