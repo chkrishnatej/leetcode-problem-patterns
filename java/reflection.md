@@ -5,6 +5,10 @@ Reflection in Java provides a way to change/modify the state of an object in run
 1. Helps to inspect the classes and look/modify the fields even if they are marked as private and final
 2. Dynamically invoke methods on objects, even private methods, at runtime
 
+## What are some practical use case of Reflections?
+
+
+
 ## Getting name fields:
 
 ```java
