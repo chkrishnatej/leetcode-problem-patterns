@@ -13,6 +13,14 @@
   * [JMX Beans](https://levelup.gitconnected.com/jmx-beans-mbeans-74db32d120af)
 * [Collections to be learned](java/collections-to-be-learned.md)
 * [Internals of HashMap](java/internals-of-hashmap.md)
+* [Reflection](java/reflection.md)
+* [Hibernate ORM](java/hibernate-orm.md)
+* [Parallel and Async Processing in JAVA](java/parallel-and-async-processing-in-java.md)
+* [Semaphores in Java](java/semaphores-in-java.md)
+* [Optionals](java/optionals.md)
+* [Streams](java/streams.md)
+* [Records](java/records.md)
+* [Singleton with Reflection Proof](java/singleton-with-reflection-proof.md)
 
 ## 🧑‍💻 Technology
 
