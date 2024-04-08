@@ -9,12 +9,16 @@
 
 ## ☕ java
 
+* [Java Virtual Machine Architecture](java/java-virtual-machine-architecture.md)
+* [Garbage Collection in Java](java/garbage-collection-in-java.md)
 * [JMX Beans](java/jmx-beans/README.md)
   * [JMX Beans](https://levelup.gitconnected.com/jmx-beans-mbeans-74db32d120af)
 * [Collections to be learned](java/collections-to-be-learned.md)
 * [Internals of HashMap](java/internals-of-hashmap.md)
 * [Reflection](java/reflection.md)
-* [Hibernate ORM](java/hibernate-orm.md)
+* [Static vs Non Static variables](java/static-vs-non-static-variables.md)
+* [JPA, ORM and Hibernate ORM](java/jpa-orm-and-hibernate-orm/README.md)
+  * [Understanding the Key Differences: JPA vs Hibernate-ORM in Java Applications](https://blog.stackademic.com/understanding-the-key-differences-jpa-vs-hibernate-orm-in-java-applications-f7c56b980dad)
 * [Parallel and Async Processing in JAVA](java/parallel-and-async-processing-in-java.md)
 * [Semaphores in Java](java/semaphores-in-java.md)
 * [Optionals](java/optionals.md)
