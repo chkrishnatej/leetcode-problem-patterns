@@ -21,6 +21,7 @@
   * [Understanding the Key Differences: JPA vs Hibernate-ORM in Java Applications](https://blog.stackademic.com/understanding-the-key-differences-jpa-vs-hibernate-orm-in-java-applications-f7c56b980dad)
 * [Parallel and Async Processing in JAVA](java/parallel-and-async-processing-in-java/README.md)
   * [Java Executor Service and Thread Pool](https://www.callicoder.com/java-executor-service-and-thread-pool-tutorial/)
+  * [Java parallel programming utilizating multiple cores](https://reintech.io/blog/java-parallel-programming-utilizing-multiple-cores)
 * [Semaphores in Java](java/semaphores-in-java.md)
 * [Optionals](java/optionals.md)
 * [Streams](java/streams.md)
