@@ -1,11 +1,33 @@
 # Table of contents
 
-* [DSA interview format](README.md)
-* [Mega Bookmarks](mega-bookmarks.md)
-* [Google Interview approach](google-interview-approach.md)
-* [CheatSheet](cheatsheet.md)
-* [Initial notes on DSA](https://docs.google.com/document/d/1RuQEPSCFfgpN7pNEj3LyYBGv57B1xqQETCoZ3QUN1XM/edit?usp=sharing)
-* [Get Well Prepared for Google Interview](get-well-prepared-for-google-interview.md)
+## 🧑‍💻 Technology
+
+* [Kafka](README.md)
+  * [Kafka Design](https://docs.confluent.io/kafka/design/index.html)
+  * [Spring Boot Kafka](https://developer.confluent.io/get-started/spring-boot)
+  * [Some Important Configs](technology/kafka/some-important-configs.md)
+  * [Offset Policy](technology/kafka/offset-policy.md)
+  * [Optimize the performance of the poll loop in Kafka Consumer](technology/kafka/optimize-the-performance-of-the-poll-loop-in-kafka-consumer.md)
+  * [Commit in Kafka](technology/kafka/commit-in-kafka.md)
+  * [Durability in Kafka](technology/kafka/durability-in-kafka.md)
+  * [Delivery Semantics](technology/kafka/delivery-semantics/README.md)
+    * [Delivery Semantics - Confluent](https://docs.confluent.io/kafka/design/delivery-semantics.html)
+  * [Transactions in Kafka](technology/kafka/transactions-in-kafka/README.md)
+    * [Transactions in Apache Kafka](https://levelup.gitconnected.com/transactions-in-apache-kafka-ee1c469fc090)
+    * [Kafka Exactly Once](https://www.baeldung.com/kafka-exactly-once)
+  * [Retries in Kafka](technology/kafka/retries-in-kafka/README.md)
+    * [Kafka Producer Retries](technology/kafka/retries-in-kafka/kafka-producer-retries.md)
+* [Databases](technology/databases.md)
+* [Operating Systems](technology/operating-systems.md)
+
+## Distributed Systems and System Design
+
+* [Distributed locking](distributed-systems-and-system-design/distributed-locking/README.md)
+  * [Distributed Locking With Redis in Spring Boot](https://medium.com/@egorponomarev/distributed-lock-with-redis-and-spring-boot-2c3f51a44c65)
+
+## Group 1
+
+* [Page 1](group-1/page-1.md)
 
 ## ☕ java
 
@@ -28,33 +50,18 @@
 * [Records](java/records.md)
 * [Singleton with Reflection Proof](java/singleton-with-reflection-proof.md)
 
-## 🧑‍💻 Technology
-
-* [Kafka](technology/kafka/README.md)
-  * [Kafka Design](https://docs.confluent.io/kafka/design/index.html)
-  * [Spring Boot Kafka](https://developer.confluent.io/get-started/spring-boot)
-  * [Some Important Configs](technology/kafka/some-important-configs.md)
-  * [Offset Policy](technology/kafka/offset-policy.md)
-  * [Optimize the performance of the poll loop in Kafka Consumer](technology/kafka/optimize-the-performance-of-the-poll-loop-in-kafka-consumer.md)
-  * [Commit in Kafka](technology/kafka/commit-in-kafka.md)
-  * [Durability in Kafka](technology/kafka/durability-in-kafka.md)
-  * [Delivery Semantics](technology/kafka/delivery-semantics/README.md)
-    * [Delivery Semantics - Confluent](https://docs.confluent.io/kafka/design/delivery-semantics.html)
-  * [Transactions in Kafka](technology/kafka/transactions-in-kafka/README.md)
-    * [Transactions in Apache Kafka](https://levelup.gitconnected.com/transactions-in-apache-kafka-ee1c469fc090)
-    * [Kafka Exactly Once](https://www.baeldung.com/kafka-exactly-once)
-  * [Retries in Kafka](technology/kafka/retries-in-kafka/README.md)
-    * [Kafka Producer Retries](technology/kafka/retries-in-kafka/kafka-producer-retries.md)
-* [Databases](technology/databases.md)
-* [Operating Systems](technology/operating-systems.md)
-
-## Group 1
-
-* [Page 1](group-1/page-1.md)
-
 ***
 
-* [Spring](spring.md)
+* [DSA interview format](<README (1).md>)
+* [Mega Bookmarks](mega-bookmarks.md)
+* [Google Interview approach](google-interview-approach.md)
+* [CheatSheet](cheatsheet.md)
+* [Initial notes on DSA](https://docs.google.com/document/d/1RuQEPSCFfgpN7pNEj3LyYBGv57B1xqQETCoZ3QUN1XM/edit?usp=sharing)
+* [Get Well Prepared for Google Interview](get-well-prepared-for-google-interview.md)
+
+## Maths
+
+* [Page 1](maths/page-1.md)
 
 ## Concepts
 
@@ -63,10 +70,6 @@
 * [Floor and Ceiling of number](concepts/floor-and-ceiling-of-number.md)
 * [Modulo Congurence](concepts/modulo-congurence.md)
 * [Arrays and their sorted orders](concepts/arrays-and-their-sorted-orders.md)
-
-## Maths
-
-* [Page 1](maths/page-1.md)
 
 ## Quirks
 
