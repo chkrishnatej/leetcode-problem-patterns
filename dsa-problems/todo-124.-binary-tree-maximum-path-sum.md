@@ -104,8 +104,9 @@ class Solution {
         // Take the total sum value of the path
         int currSum = leftPathSum + node.val + rightPathSum;
         maxSum = Math.max(maxSum, currSum); // Keep comparing to maxSum at every iteration
-
-        // Return 
+        
+        // The reason we are choosing max of leftPathSum or rightPathSum is, according
+        // to the question, we need to pick a path which maximises the sum
         return node.val + Math.max(leftPathSum, rightPathSum);
     }
 }
