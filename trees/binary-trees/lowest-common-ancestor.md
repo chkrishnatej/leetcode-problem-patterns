@@ -16,9 +16,9 @@ We just traverse left and right subtree recursively
 
 At the end there are three cases:
 
-1. Left subtree is null and right subtree is null -> Then return null
-2. Left Subtree is null -> Then return right subtree
-3. Right Substree is null -> Then return left subtree
+1. Left Subtree is null -> Then return right subtree
+2. Right Substree is null -> Then return left subtree
+3. If both are not null -> Return the root itself
 
 ## Code
 

@@ -308,6 +308,7 @@
 * [1150. Check If a Number Is Majority Element in a Sorted Array](dsa-problems/1150.-check-if-a-number-is-majority-element-in-a-sorted-array.md)
 * [1376. Time Needed to Inform All Employees](dsa-problems/1376.-time-needed-to-inform-all-employees.md)
 * [1463. Cherry Pickup II](dsa-problems/1463.-cherry-pickup-ii.md)
+* [2096. Step-By-Step Directions From a Binary Tree Node to Another](dsa-problems/2096.-step-by-step-directions-from-a-binary-tree-node-to-another.md)
 * [2101. Detonate the Maximum Bombs](dsa-problems/2101.-detonate-the-maximum-bombs.md)
 
 ***
