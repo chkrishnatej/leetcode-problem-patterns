@@ -1,8 +1,10 @@
 # Table of contents
 
+* [Preparation Notes](README.md)
+
 ## 🧑‍💻 Technology
 
-* [Kafka](README.md)
+* [Kafka](<README (2).md>)
   * [Kafka Design](https://docs.confluent.io/kafka/design/index.html)
   * [Spring Boot Kafka](https://developer.confluent.io/get-started/spring-boot)
   * [Some Important Configs](technology/kafka/some-important-configs.md)
