@@ -10,7 +10,7 @@ It’s a distributed commit log.
 
 A log (a.k.a. {_write-ahead, commit, transaction} log_) is the simplest data structure.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -27,7 +27,7 @@ The structure is roughly:
             * a bunch of files (the log)
 ```
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Terminologies
 

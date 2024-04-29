@@ -6,7 +6,7 @@
 
 ## Intution
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 If we carefully observe the above picture, we can understand that, the bottom view of binary tree is the last node in at every horizontal distance.
 
