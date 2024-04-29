@@ -4,6 +4,8 @@
 
 ## 🧑‍💻 Technology
 
+* [Backend Communication](technology/backend-communication/README.md)
+  * [Request Response](technology/backend-communication/request-response.md)
 * [Kafka](<README (2).md>)
   * [Kafka Design](https://docs.confluent.io/kafka/design/index.html)
   * [Spring Boot Kafka](https://developer.confluent.io/get-started/spring-boot)
