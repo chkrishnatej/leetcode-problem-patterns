@@ -250,6 +250,9 @@
 ## DSA Problems
 
 * [Template](dsa-problems/template.md)
+* [Copy of Template](dsa-problems/copy-of-template.md)
+* [2096. Step-By-Step Directions From a Binary Tree Node to Another](dsa-problems/2096.-step-by-step-directions-from-a-binary-tree-node-to-another.md)
+* [2415. Reverse Odd Levels of Binary Tree](dsa-problems/2415.-reverse-odd-levels-of-binary-tree.md)
 * [TODO: 987. Vertical Order Traversal of a Binary Tree](dsa-problems/todo-987.-vertical-order-traversal-of-a-binary-tree.md)
 * [TODO: 545. Boundary of Binary Tree](dsa-problems/todo-545.-boundary-of-binary-tree.md)
 * [TODO: 103. Binary Tree Zigzag Level Order Traversal](dsa-problems/todo-103.-binary-tree-zigzag-level-order-traversal.md)
@@ -312,7 +315,7 @@
 * [1150. Check If a Number Is Majority Element in a Sorted Array](dsa-problems/1150.-check-if-a-number-is-majority-element-in-a-sorted-array.md)
 * [1376. Time Needed to Inform All Employees](dsa-problems/1376.-time-needed-to-inform-all-employees.md)
 * [1463. Cherry Pickup II](dsa-problems/1463.-cherry-pickup-ii.md)
-* [2096. Step-By-Step Directions From a Binary Tree Node to Another](dsa-problems/2096.-step-by-step-directions-from-a-binary-tree-node-to-another.md)
+* [2096. Step-By-Step Directions From a Binary Tree Node to Another](dsa-problems/2096.-step-by-step-directions-from-a-binary-tree-node-to-another-1.md)
 * [2101. Detonate the Maximum Bombs](dsa-problems/2101.-detonate-the-maximum-bombs.md)
 
 ***
