@@ -23,7 +23,7 @@ while (ch.isEmpty()) {
 
 2nd iteration --> (2 \* 10) + (0 - '0') = 20 + 0 = 20
 
-**What does **_**`ch-'0'`**_ **even mean?**
+**What does&#x20;**_**`ch-'0'`**_ **even mean?**
 
 > It is doing ASCII calculations. Every character has an ASCII value associated with it,`0` character ASCII value is 48 and `2` character ASCII value is 50. So when we perform the operation `ch-'0'`, what it is doing is `50-48`, i.e 2.
 

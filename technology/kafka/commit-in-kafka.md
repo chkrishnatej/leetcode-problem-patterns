@@ -3,7 +3,7 @@
 By default, Kafka has `enable.auto.commit=true`. This commits the offset for every 5 seconds. Apart from this, there are two other types of offset commit strategies. Lets discuss all the commit strategies:
 
 1.  **Auto Commit - Default** \
-    This is the simplest way to commit offsets. **Kafka, by default, uses auto-commit – at every five seconds it commits the largest offset returned by the **_**poll()**_** method**. _poll()_ returns a set of messages with a timeout of _10_ seconds, as we can see in the code:\
+    This is the simplest way to commit offsets. **Kafka, by default, uses auto-commit – at every five seconds it commits the largest offset returned by the&#x20;**_**poll()**_**&#x20;method**. _poll()_ returns a set of messages with a timeout of _10_ seconds, as we can see in the code:\
 
 
     <pre class="language-java"><code class="lang-java">KafkaConsumer&#x3C;Long, String> consumer = new KafkaConsumer&#x3C;>(props);
