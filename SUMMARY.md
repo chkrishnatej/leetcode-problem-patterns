@@ -29,6 +29,10 @@
 * [Distributed locking](distributed-systems-and-system-design/distributed-locking/README.md)
   * [Distributed Locking With Redis in Spring Boot](https://medium.com/@egorponomarev/distributed-lock-with-redis-and-spring-boot-2c3f51a44c65)
 
+## Patterns
+
+* [Right triangle pattern](patterns/right-triangle-pattern.md)
+
 ## Group 1
 
 * [Page 1](group-1/page-1.md)
@@ -69,6 +73,7 @@
 
 ## Concepts
 
+* [Time Complexity(TC)](concepts/time-complexity-tc.md)
 * [Permutation, Combination and Subset](concepts/permutation-combination-and-subset.md)
 * [Subarray, Subsequence and Subset](concepts/subarray-subsequence-and-subset.md)
 * [Floor and Ceiling of number](concepts/floor-and-ceiling-of-number.md)
