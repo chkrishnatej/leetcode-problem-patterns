@@ -18,7 +18,6 @@ Classification of Heap
 There are two kinds of heaps: **Max Heap** and **Min Heap**.
 
 * Max Heap: Each node in the Heap has a value **no less than** its child nodes. Therefore, the top element (root node) has the **largest** value in the Heap.
-* Min Heap: Each node in the Heap has a value **no larger than** its child nodes. Therefore, the top element (root node) has the **smallest** value in the Heap.\
-
+* Min Heap: Each node in the Heap has a value **no larger than** its child nodes. Therefore, the top element (root node) has the **smallest** value in the Heap.<br>
 
 <figure><img src="https://leetcode.com/explore/featured/card/Figures/heap_explore/1_1_min_max_heap_diagram_new.png" alt=""><figcaption></figcaption></figure>

@@ -231,8 +231,7 @@ Table version of the list: [https://chuka231.blogspot.com/2021/01/leetcode-all-d
 [https://leetcode.com/problems/cherry-pickup/](https://leetcode.com/problems/cherry-pickup/)\
 [https://leetcode.com/problems/number-of-paths-with-max-score/](https://leetcode.com/problems/number-of-paths-with-max-score/)\
 [https://leetcode.com/problems/cherry-pickup-ii/](https://leetcode.com/problems/cherry-pickup-ii/)\
-[https://leetcode.com/problems/kth-smallest-instructions/](https://leetcode.com/problems/kth-smallest-instructions/)\
-
+[https://leetcode.com/problems/kth-smallest-instructions/](https://leetcode.com/problems/kth-smallest-instructions/)<br>
 
 ### Cumulative Sum
 

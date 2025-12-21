@@ -8,8 +8,7 @@ Here is the idea -
 2. Traverse the TreeMap (in other words, sweep the timeline). If a new interval starts, increase the counter (`k` value) by 1, and the counter decreases by 1, if an interval has finished.
 3. Calcalulate the number of the active ongoing intervals.
 
-In the following graph, there are 4 intervals/meetings, the `k` value is the number of rooms or booking sessions.\
-
+In the following graph, there are 4 intervals/meetings, the `k` value is the number of rooms or booking sessions.<br>
 
 <figure><img src="https://assets.leetcode.com/users/zzhai/image_1544421563.png" alt=""><figcaption></figcaption></figure>
 

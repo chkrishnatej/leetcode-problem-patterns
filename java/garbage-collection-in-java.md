@@ -128,8 +128,7 @@ As we talk about heap and stack, there comes a question, where the objects are a
 
 * [JVM Tutorial - Java Virtual Machine Architecture Explained for Beginners (freecodecamp.org)](https://www.freecodecamp.org/news/jvm-tutorial-java-virtual-machine-architecture-explained-for-beginners/)
 * ![](https://www.evernote.com/shard/s655/res/2c5788fd-95aa-c719-da79-300516a851f3)
-* \
-
+* <br>
 
 ***
 
@@ -137,24 +136,21 @@ As we talk about heap and stack, there comes a question, where the objects are a
 
 * Effective Java book has about it
 
-[https://www.youtube.com/watch?v=IwUwIrz9Ge8](https://www.youtube.com/watch?v=IwUwIrz9Ge8)\
-
+[https://www.youtube.com/watch?v=IwUwIrz9Ge8](https://www.youtube.com/watch?v=IwUwIrz9Ge8)<br>
 
 ***
 
 ### HashMaps
 
 \
-[https://www.youtube.com/watch?v=c3RVW3KGIIE](https://www.youtube.com/watch?v=c3RVW3KGIIE)[https://www.youtube.com/watch?v=APL28XpFP0c](https://www.youtube.com/watch?v=APL28XpFP0c)\
-
+[https://www.youtube.com/watch?v=c3RVW3KGIIE](https://www.youtube.com/watch?v=c3RVW3KGIIE)[https://www.youtube.com/watch?v=APL28XpFP0c](https://www.youtube.com/watch?v=APL28XpFP0c)<br>
 
 ***
 
 ### Java Strings
 
 \
-[https://www.youtube.com/watch?v=6pLEwJP1Afk](https://www.youtube.com/watch?v=6pLEwJP1Afk)\
-
+[https://www.youtube.com/watch?v=6pLEwJP1Afk](https://www.youtube.com/watch?v=6pLEwJP1Afk)<br>
 
 ***
 
@@ -216,4 +212,4 @@ The given string can be converted to Integer or number type using the following 
 \
 \
 \
-\
+<br>

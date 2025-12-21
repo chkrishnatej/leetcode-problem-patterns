@@ -1,7 +1,6 @@
 # Running from beginning of 2 arrays / Merging 2 arrays
 
-In this category, you will be given 2 arrays or lists, then have to process them with individual pointers.\
-
+In this category, you will be given 2 arrays or lists, then have to process them with individual pointers.<br>
 
 <figure><img src="https://assets.leetcode.com/users/images/2a44123b-9acb-4dbc-b230-d313a37039c9_1642138206.7972002.jpeg" alt=""><figcaption></figcaption></figure>
 
@@ -35,4 +34,4 @@ In this category, you will be given 2 arrays or lists, then have to process them
   [https://leetcode.com/problems/largest-merge-of-two-strings/](https://leetcode.com/problems/largest-merge-of-two-strings/)\
   [https://leetcode.com/problems/swap-adjacent-in-lr-string/](https://leetcode.com/problems/swap-adjacent-in-lr-string/)
 
-\
+<br>

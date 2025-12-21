@@ -49,7 +49,7 @@ The below case is an edge case that needs to be handled.
 
 > `k` = 7. We are trying to find multiples of 7
 
-<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 When we see the modulo as zero, even before we find a similar modulo, we need to check the length of the subarray.
 

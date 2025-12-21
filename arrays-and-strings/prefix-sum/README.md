@@ -43,8 +43,7 @@ Let's consider in the above table, we want to get the sum of the subarray from \
 
 <figure><img src="../../.gitbook/assets/image (27) (1).png" alt=""><figcaption><p>Calculating subarray sum from indices [1,2]</p></figcaption></figure>
 
-Looking at it, we can understand that the sum of the given subarray is 5. How we can derive it in the following way\
-
+Looking at it, we can understand that the sum of the given subarray is 5. How we can derive it in the following way<br>
 
 <figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption><p>Explaination of calculation</p></figcaption></figure>
 

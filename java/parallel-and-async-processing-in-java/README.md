@@ -16,7 +16,7 @@ In computing, we often want to make things faster or avoid waiting too long for 
 * **Best For**: Tasks that require a lot of computing power, like analyzing big data, editing photos or videos, or doing complex math.
 * **Benefits**: Makes big tasks finish faster by using more of your computer's brainpower at once.
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## What is concurrency?
 

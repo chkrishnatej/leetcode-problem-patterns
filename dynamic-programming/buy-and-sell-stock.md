@@ -50,8 +50,7 @@ To find the maximum profit at the end of the last day, we can simply loop throug
 
 The aforementioned six stock problems are classified by the value of `k`, which is the maximum number of allowable transactions (the last two also have additional requirements such as "cooldown" or "transaction fee"). I will apply the general solution to each of them one by one.
 
-\
-
+<br>
 
 **Case I: `k = 1`**
 
@@ -79,8 +78,7 @@ public int maxProfit(int[] prices) {
 
 Now let's try to gain some insight of the solution above. If we examine the part inside the loop more carefully, `T_i11` really just represents the maximum value of the negative of all stock prices up to the `i-th` day, or equivalently the minimum value of all the stock prices. As for `T_i10`, we just need to decide which action yields a higher profit, sell or rest. And if action sell is taken, the price at which we bought the stock is `T_i11`, i.e., the minimum value before the `i-th` day. This is exactly what we would do in reality if we want to gain maximum profit. I should point out that this is not the only way of solving the problem for this case. You may find some other nice solutions [here](https://discuss.leetcode.com/topic/19853/kadane-s-algorithm-since-no-one-has-mentioned-about-this-so-far-in-case-if-interviewer-twists-the-input).
 
-\
-
+<br>
 
 **Case II: `k = +Infinity`**
 
@@ -109,8 +107,7 @@ public int maxProfit(int[] prices) {
 
 This solution suggests a greedy strategy of gaining maximum profit: as long as possible, buy stock at each local minimum and sell at the immediately followed local maximum. This is equivalent to finding increasing subarrays in `prices` (the stock price array), and buying at the beginning price of each subarray while selling at its end price. It's easy to show that this is the same as accumulating profits as long as it is profitable to do so, as demonstrated in this [post](https://discuss.leetcode.com/topic/726/is-this-question-a-joke).
 
-\
-
+<br>
 
 **Case III: `k = 2`**
 
@@ -141,8 +138,7 @@ public int maxProfit(int[] prices) {
 
 which is essentially the same as the one given [here](https://discuss.leetcode.com/topic/5934/is-it-best-solution-with-o-n-o-1).
 
-\
-
+<br>
 
 **Case IV: `k is arbitrary`**
 
@@ -183,8 +179,7 @@ public int maxProfit(int k, int[] prices) {
 
 The solution is similar to the one found in this [post](https://discuss.leetcode.com/topic/8984/a-concise-dp-solution-in-java). Here I used backward looping for the `T` array to avoid using temporary variables. It turns out that it is [possible](https://discuss.leetcode.com/topic/107998/most-consistent-ways-of-dealing-with-the-series-of-stock-problems/26) to do forward looping without temporary variables, too.
 
-\
-
+<br>
 
 **Case V: `k = +Infinity but with cooldown`**
 
@@ -217,8 +212,7 @@ public int maxProfit(int[] prices) {
 
 [dietpepsi](https://discuss.leetcode.com/user/dietpepsi) shared a very nice solution [here](https://discuss.leetcode.com/topic/30421/share-my-thinking-process) with thinking process, which turns out to be the same as the one above.
 
-\
-
+<br>
 
 **Case VI: `k = +Infinity but with transaction fee`**
 
