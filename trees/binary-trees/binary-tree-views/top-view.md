@@ -6,7 +6,7 @@
 
 ## Intution
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 If we carefully observe the above picture, we can understand that, the top view of binary tree is the first node in at every horizontal distance.
 

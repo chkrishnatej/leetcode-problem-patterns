@@ -6,7 +6,7 @@
 
 ## Intution
 
-<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 If we carefully observe the above picture, we can understand that, the right view of binary tree is the right most node or last node at every level
 

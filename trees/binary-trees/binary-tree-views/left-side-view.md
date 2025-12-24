@@ -6,7 +6,7 @@
 
 ## Intution
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 If we carefully observe the above picture, we can understand that, the left view of binary tree is the left  most node or first node at every level
 

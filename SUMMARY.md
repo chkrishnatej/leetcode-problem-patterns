@@ -69,7 +69,7 @@
 
 ## Maths
 
-* [Page 1](maths/page-1.md)
+* [Combinatorics](maths/combinatorics.md)
 
 ## Concepts
 

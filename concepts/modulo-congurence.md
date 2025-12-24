@@ -4,7 +4,7 @@ This is helpful in solving problems like rotation of arrays.
 
 Given  `k` , which represents number of rotations that needs to be made on an array, we can use modulo congurence to achieve it<br>
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
