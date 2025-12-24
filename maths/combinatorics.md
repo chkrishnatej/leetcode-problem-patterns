@@ -173,3 +173,119 @@ $$
 | Minimums   | Pre-allocate items      | $$n$$ decreases         |
 | Inequality | Add a "Waste Bin"       | $$k$$ increases         |
 | Maximums   | Subtract illegal states | Use Inclusion-Exclusion |
+
+### Inclusion Exclusion Principle
+
+This technique is used when there is a constraint like a particular bin/s have upper bound(max)
+
+$$$
+$$\text{Valid Ways} = \text{Total} - (\text{Illegal}_A + \text{Illegal}_B) + \text{Illegal}_{A \text{ and } B}$$
+$$$
+
+#### How to calculate each part:
+
+Using the standard Stars and Bars formula $$C(n, k) = \binom{n+k-1}{k-1}$$:
+
+1. Total: Use all $n$ items\
+   $$\text{Total} = \binom{n+k-1}{k-1}$$
+2.  $$\text{Illegal}_A$$(Bin A breaks its limit):
+
+    Give Bin A $$(M_A + 1)$$ items first.
+
+    $$\text{Illegal}_A = \binom{(n - (M_A + 1)) + k - 1}{k - 1}$$
+3.  $$\text{Illegal}_B$$ (Bin B breaks its limit):
+
+    Give Bin B $$(M_B + 1)$$ items first.
+
+    $$\text{Illegal}_B = \binom{(n - (M_B + 1)) + k - 1}{k - 1}$$
+4.  $$\text{Illegal}_{A \text{ and } B}$$ (Both break limits):
+
+    Give Bin A $$(M_A + 1)$$ AND give Bin B $$(M_B + 1)$$ items first.
+
+    $$\text{Illegal}_{A \text{ and } B} = \binom{(n - (M_A + 1) - (M_B + 1)) + k - 1}{k - 1}$$
+
+| **Feature**              | **Formula**                        | **Logic**                                  |
+| ------------------------ | ---------------------------------- | ------------------------------------------ |
+| Bins can be empty        | $$\binom{n+k-1}{k-1}$$             | Stars and Bars are mixed.                  |
+| Bins must have $$\ge 1$$ | $$\binom{n-1}{k-1}$$               | Bars only go in the $$n-1$$ gaps.          |
+| Custom Minimums          | $$\binom{n_{rem} + k - 1}{k - 1}$$ | Pre-allocate, then distribute.             |
+| Inequality ($$\le$$)     | $$\binom{n+k}{k}$$                 | Add a "Waste Bin" ($$k$$ becomes $$k+1$$). |
+| Upper Bound (Max)        | $$Total - Illegal$$                | Force the violation, then subtract.        |
+
+***
+
+Here is your Google L5 Stars and Bars Cheat Sheet. This combines the mathematical logic, the common interview twists, and the production-ready code patterns into one scannable reference.
+
+***
+
+### 🛠 The Logic Cheat Sheet
+
+#### 1. The Core Formulas
+
+| **Constraint**                  | **Logic**                         | **Formula**            |
+| ------------------------------- | --------------------------------- | ---------------------- |
+| Non-negative ($$x_i \ge 0$$)    | Stars and bars are all movable    | $$\binom{n+k-1}{k-1}$$ |
+| Positive ($$x_i \ge 1$$)        | Bars only in the $$ $n-1$ $$ gaps | $$\binom{n-1}{k-1}$$   |
+| Inequality ($$\sum x_i \le n$$) | Add a "Waste Bin"                 | $$\binom{n+k}{k}$$     |
+
+#### 2. The "Pre-Allocation" Rule (Minima)
+
+If each bin $$ $i$ $$ needs $$ $c_i$ $$ items:
+
+1. Reduce $$ $n$ $$: $$ $n_{new} = n_{total} - \sum c_i$ $$
+2. Apply Formula: $$ $\binom{n_{new} + k - 1}{k - 1}$ $$
+
+#### 3. The "Inclusion-Exclusion" Rule (Maxima)
+
+If bin $$i$$ has a maximum capacity $$M_i$$:
+
+1. Total: Calculate ways ignoring the max.
+2. Violate: For a specific bin to be "illegal," give it $$M_i + 1$$ items first.
+3. Combine: $$\text{Total} - (\text{Single Violations}) + (\text{Double Violations}) - \dots$$
+
+***
+
+### 💻 The Implementation Cheat Sheet
+
+#### Option A: Pascal's Identity (Best for multiple lookups)
+
+Prevents overflow by using addition instead of multiplication.
+
+```
+long[][] C = new long[N + 1][K + 1];
+for (int i = 0; i <= N; i++) {
+    C[i][0] = 1; 
+    for (int j = 1; j <= i; j++) {
+        C[i][j] = C[i-1][j-1] + C[i-1][j];
+    }
+}
+```
+
+#### Option B: The Bitmask PIE (Best for Multiple Max Limits)
+
+```
+long count = 0;
+for (int i = 0; i < (1 << numLimits); i++) {
+    int currentN = totalN;
+    int setBits = 0;
+    for (int j = 0; j < numLimits; j++) {
+        if ((i & (1 << j)) > 0) {
+            currentN -= (limit[j] + 1);
+            setBits++;
+        }
+    }
+    if (currentN < 0) continue;
+    
+    long ways = combinations(currentN + k - 1, k - 1);
+    count += (setBits % 2 == 1) ? -ways : ways;
+}
+```
+
+***
+
+### 🧠 Final Interview Tips
+
+* **The "Bar" Rule:** Always remember that $$k$$ bins require $$k-1$$ bars. The "bottom" number of your combination is almost always the number of bars.
+* **The "Item" Identity:** Ensure the items are identical (e.g., tasks, requests, coins). If the items are distinct (e.g., people, unique IDs), Stars and Bars does not apply; use $$k^n$$ instead.
+* **Edge Cases:** Always mention $$n < 0$$ (impossible distribution) and $$n < k$$ (in a Scenario B "no empty bins" problem).
+
