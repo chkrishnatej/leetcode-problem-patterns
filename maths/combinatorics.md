@@ -230,10 +230,10 @@ Here is your Google L5 Stars and Bars Cheat Sheet. This combines the mathematica
 
 #### 2. The "Pre-Allocation" Rule (Minima)
 
-If each bin $$ $i$ $$ needs $$ $c_i$ $$ items:
+If each bin $$i$$ needs $$c_i$$ items:
 
-1. Reduce $$ $n$ $$: $$ $n_{new} = n_{total} - \sum c_i$ $$
-2. Apply Formula: $$ $\binom{n_{new} + k - 1}{k - 1}$ $$
+1. Reduce $$n$$: $$n_{new} = n_{total} - \sum c_i$$
+2. Apply Formula: $$\binom{n_{new} + k - 1}{k - 1}$$
 
 #### 3. The "Inclusion-Exclusion" Rule (Maxima)
 
