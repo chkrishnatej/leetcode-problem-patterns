@@ -178,15 +178,15 @@ $$
 
 This technique is used when there is a constraint like a particular bin/s have upper bound(max)
 
-$$$
-$$\text{Valid Ways} = \text{Total} - (\text{Illegal}_A + \text{Illegal}_B) + \text{Illegal}_{A \text{ and } B}$$
-$$$
+$$
+\text{Valid Ways} = \text{Total} - (\text{Illegal}_A + \text{Illegal}_B) + \text{Illegal}_{A \text{ and } B}
+$$
 
 #### How to calculate each part:
 
 Using the standard Stars and Bars formula $$C(n, k) = \binom{n+k-1}{k-1}$$:
 
-1. Total: Use all $n$ items\
+1. Total: Use all $$n$$ items\
    $$\text{Total} = \binom{n+k-1}{k-1}$$
 2.  $$\text{Illegal}_A$$(Bin A breaks its limit):
 
@@ -214,10 +214,6 @@ Using the standard Stars and Bars formula $$C(n, k) = \binom{n+k-1}{k-1}$$:
 
 ***
 
-Here is your Google L5 Stars and Bars Cheat Sheet. This combines the mathematical logic, the common interview twists, and the production-ready code patterns into one scannable reference.
-
-***
-
 ### 🛠 The Logic Cheat Sheet
 
 #### 1. The Core Formulas
@@ -242,6 +238,23 @@ If bin $$i$$ has a maximum capacity $$M_i$$:
 1. Total: Calculate ways ignoring the max.
 2. Violate: For a specific bin to be "illegal," give it $$M_i + 1$$ items first.
 3. Combine: $$\text{Total} - (\text{Single Violations}) + (\text{Double Violations}) - \dots$$
+
+#### The Correct Formula for 3 Bins
+
+$$
+\text{Valid Ways} = \text{Total} - (\text{Singles}) + (\text{Pairs}) - (\text{Triples})
+$$
+
+Expanded out, it looks like this:
+
+1. (+) Total: All possible ways.
+2. (-) Singles: Subtract cases where A is bad, B is bad, or C is bad.
+   * $$- (\text{Illegal}_A + \text{Illegal}_B + \text{Illegal}_C)$$
+3. (+) Pairs: Add back cases where two are bad at the same time (because you subtracted these twice in the step above).
+   * $$+ (\text{Illegal}_{A\&B} + \text{Illegal}_{B\&C} + \text{Illegal}_{A\&C})$$
+4. (-) Triples: Subtract the case where all three are bad.
+   * $$- (\text{Illegal}_{A\&B\&C})$$
+   *
 
 ***
 
