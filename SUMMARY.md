@@ -72,6 +72,7 @@
 * [Combinatorics](maths/combinatorics/README.md)
   * [In Depth of Combinatoric](maths/combinatorics/in-depth-of-combinatoric.md)
   * [Handwritten Notes](maths/combinatorics/handwritten-notes.md)
+  * [Java Code](maths/combinatorics/java-code.md)
 
 ## Concepts
 
