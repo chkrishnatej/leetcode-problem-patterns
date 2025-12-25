@@ -69,7 +69,9 @@
 
 ## Maths
 
-* [Combinatorics](maths/combinatorics.md)
+* [Combinatorics](maths/combinatorics/README.md)
+  * [In Depth of Combinatoric](maths/combinatorics/in-depth-of-combinatoric.md)
+  * [Handwritten Notes](maths/combinatorics/handwritten-notes.md)
 
 ## Concepts
 
