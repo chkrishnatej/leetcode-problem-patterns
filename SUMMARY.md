@@ -117,6 +117,7 @@
   * [Split & Merge of an array / Divide & Conquer](arrays-and-strings/two-pointers/split-and-merge-of-an-array-divide-and-conquer.md)
 * [Permutation](arrays-and-strings/permutation.md)
 * [Next Variants](arrays-and-strings/next-variants.md)
+* [Study Required](arrays-and-strings/study-required.md)
 
 ## Linked Lists
 
