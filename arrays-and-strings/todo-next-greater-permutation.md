@@ -1,2 +1,0 @@
-# Next Greater permutation
-
