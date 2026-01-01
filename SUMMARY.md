@@ -87,11 +87,12 @@
 
 ## Algorithms
 
-* [Boyer-Moore Voting Algorithm](algorithms/boyer-moore-voting-algorithm/README.md)
+* [Boyer-Moore Voting Algorithm](algorithms/boyer-moore-voting-algorithm.md)
   * [Classic Boyers-Moore for n/2](algorithms/boyer-moore-voting-algorithm/classic-boyers-moore-for-n-2.md)
   * [Classic Boyers-Moore for n/3](algorithms/boyer-moore-voting-algorithm/classic-boyers-moore-for-n-3.md)
   * [Majority In Stream](algorithms/boyer-moore-voting-algorithm/majority-in-stream.md)
   * [Weighted Majority Vote](algorithms/boyer-moore-voting-algorithm/weighted-majority-vote.md)
+* [Kadanes Algorithm](algorithms/kadanes-algorithm.md)
 
 ## Quirks
 
