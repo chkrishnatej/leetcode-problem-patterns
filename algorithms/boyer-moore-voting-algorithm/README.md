@@ -5,6 +5,14 @@
 1. [Majority Element - Leetcode](https://leetcode.com/problems/majority-element/)
 2. [Majority Element II - Leetcode](https://leetcode.com/problems/majority-element-ii/)
 
+## Variations
+
+1. **Find majority element (> n/2) :** the classic.
+2. **Find elements > n/3** : extended version for more than one majority.
+3. **Majority in a stream :** constant space, streaming data.
+4. **Weighted votes** : when counts aren’t equal.
+5. **Verification step :** avoid false positives when no majority exists.
+
 ***
 
 ## Naive Algorithm
