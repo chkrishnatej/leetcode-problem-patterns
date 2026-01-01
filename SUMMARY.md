@@ -74,6 +74,7 @@
   * [Handwritten Notes](maths/combinatorics/handwritten-notes.md)
   * [Java Code](maths/combinatorics/java-code.md)
   * [Stars and Bars](maths/combinatorics/stars-and-bars.md)
+* [Permutations vs Combinations](maths/permutations-vs-combinations.md)
 
 ## Concepts
 
