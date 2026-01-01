@@ -85,6 +85,10 @@
 * [Modulo Congurence](concepts/modulo-congurence.md)
 * [Arrays and their sorted orders](concepts/arrays-and-their-sorted-orders.md)
 
+## Algorithms
+
+* [Boyer-Moore Voting Algorithm](algorithms/boyer-moore-voting-algorithm.md)
+
 ## Quirks
 
 * [Getting Character as a numeric value](quirks/getting-character-as-a-numeric-value.md)
