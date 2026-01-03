@@ -1,5 +1,15 @@
 # Boyer-Moore Voting Algorithm
 
+## Links:
+
+{% embed url="https://nileshsaini09.medium.com/boyer-moore-majority-voting-algorithm-0cd80be95758" %}
+
+{% embed url="https://medium.com/coding-nexus/dsa-lecture-10-mastering-frequency-counting-with-boyer-moore-algorithm-b3f9d4dc19a5" %}
+
+{% embed url="https://medium.com/coding-nexus/dsa-lecture-17-boyer-moore-interview-problems-875624ba8122" %}
+
+
+
 ## Questions
 
 1. [Majority Element - Leetcode](https://leetcode.com/problems/majority-element/)
