@@ -93,6 +93,7 @@
   * [Majority In Stream](algorithms/boyer-moore-voting-algorithm/majority-in-stream.md)
   * [Weighted Majority Vote](algorithms/boyer-moore-voting-algorithm/weighted-majority-vote.md)
 * [Kadanes Algorithm](algorithms/kadanes-algorithm.md)
+* [Merge Sort](algorithms/merge-sort.md)
 
 ## Quirks
 
