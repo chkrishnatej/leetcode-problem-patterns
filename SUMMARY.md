@@ -29,6 +29,10 @@
 * [Distributed locking](distributed-systems-and-system-design/distributed-locking/README.md)
   * [Distributed Locking With Redis in Spring Boot](https://medium.com/@egorponomarev/distributed-lock-with-redis-and-spring-boot-2c3f51a44c65)
 
+## Interesting Work Problems
+
+* [Articles Bookmark](interesting-work-problems/articles-bookmark.md)
+
 ## Patterns
 
 * [Right triangle pattern](patterns/right-triangle-pattern.md)
